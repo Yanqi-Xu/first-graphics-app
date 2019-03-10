@@ -6,13 +6,19 @@
 {% block byline %}By me{% endblock %}
 {% block pubdate %}
     <time datetime="2019-03-09" pubdate>Mar. 9, 2019</time>
-    {% endblock %}
+{% endblock %}
+
 {% block content %}
 
 <div class="charts">
-  <div class="inline-chart" id="county-homicides"></div>
-  <div class="inline-chart" id="harvard-park-homicides"></div>
+  <div class="inline-chart" id="county-homicides">
+    <h4 class="chart-title">County homicides, 2000-2017</h4>
+  </div>
 
+  <div class="inline-chart" id="harvard-park-homicides">
+    <h4 class="chart-title">Harvard Park homicides, 2000-2017</h4>
+  </div>
+      
 </div>
 
 <section>
